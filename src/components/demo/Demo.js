@@ -7,7 +7,6 @@ import './Demo.css';
 class Demo extends Component {
     render() {
         const usuarios = ["Ivonaldo", "Leo", "Maria", "Ivonaldo"];
-        const value = 'teste de botao';
         return(
             <div>
                 <h1>Hello World!</h1>
