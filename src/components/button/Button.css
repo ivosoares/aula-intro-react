@@ -15,3 +15,11 @@ button {
     background: red;
     color: #FFF;
 }
+.alerta {
+    background: yellow;
+    color: black;
+}
+.default {
+    background: blue;
+    color: white;
+}
