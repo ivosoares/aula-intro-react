@@ -29,6 +29,7 @@ class Demo extends Component {
 
                 <h2>Lista 3</h2>
                 <p>conteudo da lista 3 na branch nova</p>
+                <p>teste de novo commit</p>
             </div>
         )
     }
