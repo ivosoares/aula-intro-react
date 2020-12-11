@@ -5,11 +5,25 @@ import List from "../list/List";
 import './Demo.css';
 
 class Demo extends Component {
+    state = {
+        nome: 'Ivonaldo',
+        idade: 25
+    };
+
+    clickNoBotao = () => {
+        console.log('Clicou no botao');
+        this.setState({
+            nome: 'Leonardo',
+            idade: 26
+        })
+    };
+
     render() {
         const usuarios = ["Ivonaldo", "Leo", "Maria", "Ivonaldo"];
         return(
             <div>
-                <h1>Hello World!</h1>
+                <h1>{this.state.nome} tem {this.state.idade} Anos.</h1>
+                <button onClick={this.clickNoBotao}>Altera nome</button>
                 <Button nameclass="sucesso" text="teste">
                     <h1>teste</h1>
                     <p>teste</p>

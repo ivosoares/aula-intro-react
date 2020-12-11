@@ -6,6 +6,7 @@ function Button(props) {
     console.log(props.children)
     return (
         <div>
+            <p>texto do botao</p>
             {props.children}
             <button className={props.nameclass} id={props.idprop}>{props.text}</button>
         </div>
